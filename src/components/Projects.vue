@@ -49,12 +49,9 @@
                     </div>
                   </div>
                   <p class="mt-2 text-slate-500">
-                    Una plataforma de diplomados tiene la finalidad de ofrecer
-                    un espacio dinámico y accesible para la formación docente y
-                    el desarrollo profesional. Con un enfoque ramificado,
-                    permite a los usuarios explorar diversas áreas de
-                    conocimiento, desde la educación hasta el desarrollo de
-                    habilidades técnicas.
+                    El objetivo final es ofrecer un espacio dinámico y accesible
+                    para la formación docente y el desarrollo profesional en
+                    diversas áreas de conocimiento.
                   </p>
                 </div>
               </div>

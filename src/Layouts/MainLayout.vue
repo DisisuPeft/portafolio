@@ -13,7 +13,7 @@ function close() {
   <div class="h-screen flex flex-col">
     <header>
       <nav
-        class="w-full bg-blue-950 py-2 dark:bg-body-dark z-20 h-[160px] md:h-[100px] fixed shadow-lg"
+        class="w-full bg-blue-950 py-2 dark:bg-body-dark z-20 h-[180px] md:h-[100px] fixed shadow-lg"
       >
         <div class="container mx-auto flex justify-between items-center mt-4">
           <div class="flex-shrink-0 ml-10 ma-4 md:ml-0">

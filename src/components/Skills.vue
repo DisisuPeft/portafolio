@@ -167,6 +167,17 @@
                   </template>
                 </v-tooltip>
               </div>
+              <div class="flex justify-start">
+                <v-tooltip text="C#" location="top">
+                  <template v-slot:activator="{ props }">
+                    <img
+                      src="./../assets/c.png"
+                      class="rounded-xl w-[50px]"
+                      v-bind="props"
+                    />
+                  </template>
+                </v-tooltip>
+              </div>
             </div>
           </div>
         </li>

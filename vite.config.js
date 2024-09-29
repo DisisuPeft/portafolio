@@ -1,15 +1,19 @@
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-
+import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
+  plugins: [vue()],
   build: {
-    // generate manifest.json in outDir
-    manifest: true,
+    // Directorio de salida (por defecto es 'dist')
+    outDir: "dist",
+    // Genera un manifest.json (opcional)
+    manifest: false,
     rollupOptions: {
-      // overwrite default .html entry
-      input: "/src/main.js",
+      // Ruta de entrada relativa correcta
+      input: path.resolve(__dirname, "src", "main.js"),
     },
   },
-  plugins: [vue()],
+  // Base pública, ajusta si despliegas en un subdirectorio
+  base: "/",
 });

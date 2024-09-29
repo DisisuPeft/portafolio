@@ -11,7 +11,7 @@ export default defineConfig({
     manifest: false,
     rollupOptions: {
       // Ruta de entrada relativa correcta
-      input: path.resolve(__dirname, "src", "main.js"),
+      input: "/src/main.js",
     },
   },
   // Base pública, ajusta si despliegas en un subdirectorio

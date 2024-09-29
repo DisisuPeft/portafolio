@@ -15,5 +15,5 @@ export default defineConfig({
     },
   },
   // Base pública, ajusta si despliegas en un subdirectorio
-  base: "/",
+  base: "./",
 });

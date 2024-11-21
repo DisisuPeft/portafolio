@@ -16,7 +16,7 @@ function handleEvent(e) {
 
 <template>
   <MainLayout>
-    <div class="flex flex-col items-center justify-center mt-[50px]">
+    <div class="flex flex-col items-center justify-center mt-[200px]">
       <div class="flex justify-center p-10">
         <img
           src="./assets/miFoto.jpg"

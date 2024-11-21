@@ -31,16 +31,16 @@ onUnmounted(() => {
 
 <template>
   <div
-    class="p-[50px] lg:p-[100px] flex justify-center mt-[100px] top-0 left-0 py-4 transition-opacity duration-500"
+    class="p-[50px] lg:p-[100px] flex justify-center mt-[100px] py-4 transition-opacity duration-500"
     :style="{ opacity: props.opacity }"
   >
-    <section class="max-w-[700px] mt-0 mx-auto mb-[48px]">
+    <section class="max-w-[700px] mx-auto">
       <h2
         class="underline decoration-double decoration-pink-500 text-xl text-gray-700 mb-2 font-bold text-[1.3rem] leading-6"
       >
         Proyecto destacado
       </h2>
-      <ul class="grid grid-cols-[repeat(auto-fit, minmax(200px,1fr))] gap-4">
+      <ul class="grid grid-cols-1 md:grid-cols-[repeat(auto-fit, minmax(150px,1fr))]">
         <li>
           <p class="text-xl text-gray-700 pt-2">
             FODAP es una plataforma integral diseñada para automatizar el
@@ -48,8 +48,8 @@ onUnmounted(() => {
             eficiente.
           </p>
         </li>
-        <li>
-          <v-carousel hide-delimiters>
+        <li class="h-auto mt-4">
+          <v-carousel hide-delimiters height="300">
             <v-carousel-item v-for="(image, i) in images" :key="i" :src="image">
             </v-carousel-item>
           </v-carousel>

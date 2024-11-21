@@ -6,7 +6,7 @@
   >
     <section class="max-w-[700px] mt-0 mx-auto mb-[48px]">
       <h2
-        class="underline decoration-double decoration-pink-500 text-xl text-gray-700 mb-2 font-bold text-[1.3rem] leading-6"
+        class="underline decoration-double decoration-pink-500 text-xl text-gray-700 mb-4 font-bold text-[1.3rem] leading-6"
       >
         Experiencia
       </h2>

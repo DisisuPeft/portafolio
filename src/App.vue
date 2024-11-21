@@ -25,7 +25,7 @@ function handleEvent(e) {
         />
       </div>
       <div class="flex justify-center items-center">
-        <p class="text-xl text-gray-700 sm:w-[500px] m-2 p-2">
+        <p class="text-xl text-gray-700 sm:w-[500px] m-4 md:m-2 p-4 md:p-2">
           Soy un desarrollador junior con 1 año de experiencia, en constante aprendizaje y en proceso de formación para ser un desarrollador Full Stack completo. Tengo un fuerte deseo de seguir creciendo profesionalmente y contribuir en proyectos que me permitan expandir mis habilidades y conocimientos
         </p>
       </div>

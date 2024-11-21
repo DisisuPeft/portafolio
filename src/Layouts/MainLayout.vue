@@ -65,7 +65,7 @@ function close() {
         </div>
       </nav>
     </header>
-    <main class="flex-1">
+    <main class="">
       <slot />
     </main>
   </div>

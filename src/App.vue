@@ -16,7 +16,7 @@ function handleEvent(e) {
 
 <template>
   <MainLayout>
-    <div class="grid grid-rows-1 mt-[100px] md:mt-[20px] lg:mt-[200px]">
+    <div class="flex flex-col items-center justify-center mt-[50px]">
       <div class="flex justify-center p-10">
         <img
           src="./assets/miFoto.jpg"
@@ -26,8 +26,7 @@ function handleEvent(e) {
       </div>
       <div class="flex justify-center items-center">
         <p class="text-xl text-gray-700 sm:w-[500px] m-2 p-2">
-          Desarrollador Full Stack junior con 2 años de experiencia, en
-          constante aprendizaje y con el deseo de participar en más proyectos.
+          Soy un desarrollador junior con 1 año de experiencia, en constante aprendizaje y en proceso de formación para ser un desarrollador Full Stack completo. Tengo un fuerte deseo de seguir creciendo profesionalmente y contribuir en proyectos que me permitan expandir mis habilidades y conocimientos
         </p>
       </div>
       <div class="flex justify-center items-center">

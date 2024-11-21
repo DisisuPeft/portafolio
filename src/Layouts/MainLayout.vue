@@ -10,7 +10,7 @@ function close() {
 </script>
 
 <template>
-  <div class="h-screen flex flex-col">
+  <div class="h-auto flex flex-col">
     <header>
       <nav
         class="w-full bg-blue-950 py-2 dark:bg-body-dark z-20 h-[180px] md:h-[100px] fixed shadow-lg"
@@ -65,7 +65,7 @@ function close() {
         </div>
       </nav>
     </header>
-    <main class="flex-1 pt-[200px]">
+    <main class="flex-1">
       <slot />
     </main>
   </div>

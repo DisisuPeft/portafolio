@@ -11,12 +11,12 @@ const opacity = ref(0);
 function handleEvent(e) {
   // console.log(e);
   opacity.value = e;
-}
+};
 </script>
 
 <template>
   <MainLayout>
-    <div class="grid grid-rows-1 mt-[0px] md:mt-[100px] lg:mt-[100px]">
+    <div class="grid grid-rows-1 mt-[0px] md:mt-[20px] lg:mt-[100px]">
       <div class="flex justify-center p-10">
         <img
           src="./assets/miFoto.jpg"

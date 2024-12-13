@@ -2,7 +2,7 @@
 import { onMounted, ref } from "vue";
 const images_src = ref([]);
 const imagesArray = ref([
-  "./../src/assets/laravel.png",
+  "./../assets/laravel.png",
   "../../src/assets/vue-js.png",
   "../../src/assets/javascript.png",
   "../../src/assets/react.png",

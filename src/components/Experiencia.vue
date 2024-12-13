@@ -6,7 +6,7 @@
   >
     <section class="max-w-[700px] mt-0 mx-auto mb-[48px]">
       <h2
-        class="underline decoration-double decoration-pink-500 text-xl text-gray-700 mb-4 font-bold text-[1.3rem] leading-6"
+        class="underline decoration-red-500 text-xl text-gray-700 mb-4 font-bold text-[1.3rem] leading-6 font-serif"
       >
         Experiencia
       </h2>
@@ -19,16 +19,16 @@
               <div class="md:flex">
                 <div class="p-8">
                   <div
-                    class="uppercase tracking-wide text-lg text-indigo-500 font-semibold"
+                    class="uppercase tracking-wide text-lg text-red-500 font-semibold font-serif"
                   >
                     Corporativo Naercris
                   </div>
                   <p
-                    class="block mt-1 text-md leading-tight font-medium text-black hover:underline"
+                    class="block mt-1 text-md leading-tight font-medium text-black hover:underline font-serif"
                   >
                     Empresa corporativa | Enero 2024 - Julio 2024
                   </p>
-                  <p class="mt-2 text-slate-500">
+                  <p class="mt-2 text-slate-500 font-serif">
                     Dar soporte tanto del lado cliente como lado servidor a un
                     sistema integral que mejora la operatividad de las empresas
                     que conforman el corporativo, también analicé y revisé el
@@ -49,17 +49,17 @@
               <div class="md:flex">
                 <div class="p-8">
                   <div
-                    class="uppercase tracking-wide text-lg text-indigo-500 font-semibold"
+                    class="uppercase tracking-wide text-lg text-red-500 font-semibold font-serif"
                   >
                     Instituto Tecnológico de Tuxtla Gutiérrez . Tecnm
                   </div>
                   <p
-                    class="block mt-1 text-md leading-tight font-medium text-black hover:underline"
+                    class="block mt-1 text-md leading-tight font-medium text-black hover:underline font-serif"
                   >
                     Universidad de estudios superiores | Agosto 2021 - Agosto
                     2022
                   </p>
-                  <p class="mt-2 text-slate-500">
+                  <p class="mt-2 text-slate-500 font-serif">
                     Creación de un sistema integral para administrar
                     inscripciones, seguimiento de cursos y evaluaciones.
                     Implementación de funcionalidades como control de usuarios,

@@ -13,7 +13,7 @@ function close() {
   <div class="h-auto flex flex-col">
     <header>
       <nav
-        class="w-full bg-blue-950 py-2 dark:bg-body-dark z-20 h-[180px] md:h-[100px] fixed shadow-lg"
+        class="w-full bg-black py-2 dark:bg-body-dark z-20 h-[180px] md:h-[100px] fixed shadow-lg"
       >
         <div class="container mx-auto flex justify-between items-center mt-4">
           <div class="flex-shrink-0 ml-10 ma-4 md:ml-0">
@@ -22,7 +22,7 @@ function close() {
 
           <div class="flex justify-center ml-3">
             <div class="fill-current text-white mt-2">
-              <p class="text-2xl">Daniel Eduardo Fernández Pérez</p>
+              <p class="text-xl font-serif">Daniel Eduardo Fernández Pérez</p>
             </div>
           </div>
           <div
@@ -43,7 +43,7 @@ function close() {
             <div class="flex justify-center ml-3">
               <div class="fill-current text-gray-400 mt-1">
                 <p
-                  class="rounded-md flex items-center p-2 bg-sky-500 text-lg text-white"
+                  class="rounded-md flex items-center p-2 hover:bg-white text-lg text-white font-serif"
                 >
                   Junior FullStack Developer
                 </p>
@@ -65,7 +65,7 @@ function close() {
         </div>
       </nav>
     </header>
-    <main>
+    <main class="mt-[200px]">
       <slot />
     </main>
   </div>

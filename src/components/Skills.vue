@@ -1,11 +1,58 @@
-<script setup></script>
+<script setup>
+import { onMounted, ref } from "vue";
+const images_src = ref([]);
+const imagesArray = ref([
+  "../../src/assets/laravel.png",
+  "../../src/assets/vue-js.png",
+  "../../src/assets/javascript.png",
+  "../../src/assets/react.png",
+  "../../src/assets/python.png",
+  "../../src/assets/php8.png",
+  "../../src/assets/java.png",
+  "../../src/assets/sql.png",
+  "../../src/assets/html5.png",
+  "../../src/assets/css.png",
+  "../../src/assets/tailwindcss.png",
+  "../../src/assets/django.png",
+  "../../src/assets/linux.png",
+  "../../src/assets/git.png",
+]);
+const titles = [
+  "Laravel",
+  "Vue.js",
+  "Javascript",
+  "React.js",
+  "Python",
+  "PHP",
+  "Java",
+  "SQL",
+  "HTML",
+  "CSS",
+  "Tailwindcss",
+  "Django Python Framework",
+  "Linux",
+  "Git",
+];
+const create_images_src = (array) => {
+  images_src.value = array.map((item, index) => ({
+    id: index + 1,
+    src: item,
+    title: titles[index],
+  }));
+};
+
+onMounted(() => {
+  create_images_src(imagesArray.value);
+  // console.log(images_src.value);
+});
+</script>
 <template>
   <div
     class="p-[50px] lg:p-[100px] flex justify-center mt-[100px] top-0 left-0 py-4 transition-opacity duration-500"
   >
     <section class="max-w-[700px] mt-0 mx-auto mb-[48px]">
       <h2
-        class="underline decoration-double decoration-pink-500 text-xl text-gray-700 mb-2 font-bold text-[1.3rem] leading-6"
+        class="underline decoration-red-500 text-xl text-gray-700 mb-2 font-bold text-[1.3rem] leading-6 font-serif"
       >
         Habilidades
       </h2>
@@ -13,18 +60,22 @@
         <li>
           <div class="flex justify-center">
             <div class="grid grid-cols-5 gap-4 w-[300px]">
-              <div class="flex justify-end">
-                <v-tooltip text="Laravel" location="top">
+              <div
+                class="flex justify-end"
+                v-for="row in images_src"
+                :key="row.id"
+              >
+                <v-tooltip :text="row.title" location="top">
                   <template v-slot:activator="{ props }">
                     <img
-                      src="./../assets/laravel.png"
+                      :src="row.src"
                       class="rounded-xl w-[50px]"
                       v-bind="props"
                     />
                   </template>
                 </v-tooltip>
               </div>
-              <div class="flex justify-start">
+              <!-- <div class="flex justify-start">
                 <v-tooltip text="Vue.js" location="top">
                   <template v-slot:activator="{ props }">
                     <img
@@ -36,10 +87,10 @@
                 </v-tooltip>
               </div>
               <div class="flex justify-start">
-                <v-tooltip text="React.js" location="top">
+                <v-tooltip text="JavaScript" location="top">
                   <template v-slot:activator="{ props }">
                     <img
-                      src="./../assets/react.png"
+                      src="./../assets/javascript.png"
                       class="rounded-xl w-[50px]"
                       v-bind="props"
                     />
@@ -47,10 +98,10 @@
                 </v-tooltip>
               </div>
               <div class="flex justify-start">
-                <v-tooltip text="JavaScript" location="top">
+                <v-tooltip text="React.js" location="top">
                   <template v-slot:activator="{ props }">
                     <img
-                      src="./../assets/javascript.png"
+                      src="./../assets/react.png"
                       class="rounded-xl w-[50px]"
                       v-bind="props"
                     />
@@ -177,7 +228,7 @@
                     />
                   </template>
                 </v-tooltip>
-              </div>
+              </div> -->
             </div>
           </div>
         </li>

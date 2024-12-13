@@ -36,13 +36,15 @@ onUnmounted(() => {
   >
     <section class="max-w-[700px] mx-auto">
       <h2
-        class="underline decoration-double decoration-pink-500 text-xl text-gray-700 mb-2 font-bold text-[1.3rem] leading-6"
+        class="underline decoration-red-500 text-xl text-gray-700 mb-2 font-bold text-[1.3rem] font-serif leading-6"
       >
         Proyecto destacado
       </h2>
-      <ul class="grid grid-cols-1 md:grid-cols-[repeat(auto-fit, minmax(150px,1fr))]">
+      <ul
+        class="grid grid-cols-1 md:grid-cols-[repeat(auto-fit, minmax(150px,1fr))]"
+      >
         <li>
-          <p class="text-xl text-gray-700 pt-2">
+          <p class="text-xl text-gray-700 pt-2 font-serif">
             FODAP es una plataforma integral diseñada para automatizar el
             proceso de formación docente y actualización profesional de manera
             eficiente.
@@ -58,9 +60,9 @@ onUnmounted(() => {
           <div class="flex justify-center">
             <p class="text-gray-700 p-2">Made with:</p>
           </div>
-          <div class="flex justify-center">
-            <div class="grid grid-cols-2 gap-4 w-[300px]">
-              <div class="flex justify-end">
+          <div class="flex flex-col justify-center w-full">
+            <div class="flex flex-row justify-center gap-5 p-2">
+              <div class="flex items-center">
                 <v-tooltip text="Laravel" location="top">
                   <template v-slot:activator="{ props }">
                     <img
@@ -71,7 +73,7 @@ onUnmounted(() => {
                   </template>
                 </v-tooltip>
               </div>
-              <div class="flex justify-start">
+              <div class="flex items-center">
                 <v-tooltip text="Vue.js" location="top">
                   <template v-slot:activator="{ props }">
                     <img
@@ -82,6 +84,13 @@ onUnmounted(() => {
                   </template>
                 </v-tooltip>
               </div>
+            </div>
+            <div class="flex items-center justify-center mt-10">
+              <a
+                class="p-2 rounded-lg bg-white border-2 border-black"
+                href="http://fodap.tuxtla.tecnm.mx/"
+                >Visitar</a
+              >
             </div>
           </div>
         </li>

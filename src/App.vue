@@ -11,12 +11,12 @@ const opacity = ref(0);
 function handleEvent(e) {
   // console.log(e);
   opacity.value = e;
-};
+}
 </script>
 
 <template>
   <MainLayout>
-    <div class="flex flex-col items-center justify-center mt-[200px]">
+    <div class="md:flex flex-row items-center justify-center mt-[100px]">
       <div class="flex justify-center p-10">
         <img
           src="./assets/miFoto.jpg"
@@ -24,37 +24,51 @@ function handleEvent(e) {
           class="rounded-full w-[150px]"
         />
       </div>
-      <div class="flex justify-center items-center">
-        <p class="text-xl text-gray-700 sm:w-[500px] m-4 md:m-2 p-4 md:p-2">
-          Soy un desarrollador junior con 1 año de experiencia, en constante aprendizaje y en proceso de formación para ser un desarrollador Full Stack completo. Tengo un fuerte deseo de seguir creciendo profesionalmente y contribuir en proyectos que me permitan expandir mis habilidades y conocimientos
-        </p>
-      </div>
-      <div class="flex justify-center items-center">
-        <div class="grid grid-cols-4 gap-4 w-[200px]">
-          <div class="flex justify-center">
-            <a href="https://github.com/DisisuPeft">
-              <img src="./assets/github-sign.png" class="rounded-xl w-[40px]" />
-            </a>
-          </div>
-          <div class="flex justify-center">
-            <a href="mailto:defp_99@hotmail.com">
-              <img src="./assets/email.png" class="rounded-xl w-[50px]" />
-            </a>
-          </div>
-          <div class="flex justify-center">
-            <a href="tel:+52 961427622">
-              <img src="./assets/phone-call.png" class="rounded-xl w-[40px]" />
-            </a>
-          </div>
-          <div class="flex justify-center">
-            <a
-              href="https://www.linkedin.com/in/daniel-fern%C3%A1ndez-046a40244/"
-            >
-              <img
-                src="./assets/linkedin-logo.png"
-                class="rounded-md w-[40px]"
-              />
-            </a>
+      <div class="flex flex-col items-center justify-center md:mt-10">
+        <div class="flex justify-center items-center">
+          <p
+            class="text-xl text-gray-700 sm:w-[700px] m-4 md:m-2 p-4 md:p-2 font-serif font-medium"
+          >
+            Soy un desarrollador junior con 1 año de experiencia, en constante
+            aprendizaje y en proceso de formación para ser un desarrollador Full
+            Stack completo. Tengo un fuerte deseo de seguir creciendo
+            profesionalmente y contribuir en proyectos que me permitan expandir
+            mis habilidades y conocimientos
+          </p>
+        </div>
+        <div class="flex justify-center items-center">
+          <div class="grid grid-cols-4 gap-4 w-[200px]">
+            <div class="flex justify-center">
+              <a href="https://github.com/DisisuPeft">
+                <img
+                  src="./assets/github-sign.png"
+                  class="rounded-xl w-[40px]"
+                />
+              </a>
+            </div>
+            <div class="flex justify-center">
+              <a href="mailto:defp_99@hotmail.com">
+                <img src="./assets/email.png" class="rounded-xl w-[50px]" />
+              </a>
+            </div>
+            <div class="flex justify-center">
+              <a href="tel:+52 961427622">
+                <img
+                  src="./assets/phone-call.png"
+                  class="rounded-xl w-[40px]"
+                />
+              </a>
+            </div>
+            <div class="flex justify-center">
+              <a
+                href="https://www.linkedin.com/in/daniel-fern%C3%A1ndez-046a40244/"
+              >
+                <img
+                  src="./assets/linkedin-logo.png"
+                  class="rounded-md w-[40px]"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>

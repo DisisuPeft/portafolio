@@ -5,7 +5,7 @@
   >
     <section class="max-w-[700px] mt-0 mx-auto mb-[48px]">
       <h2
-        class="underline decoration-double decoration-pink-500 text-xl text-gray-700 mb-2 font-bold text-[1.3rem] leading-6"
+        class="underline decoration-red-500 text-xl text-gray-700 mb-2 font-bold text-[1.3rem] leading-6 font-serif"
       >
         Proyectos
       </h2>
@@ -18,7 +18,7 @@
               <div class="md:flex">
                 <div class="p-8">
                   <div
-                    class="uppercase tracking-wide text-lg text-indigo-500 font-semibold"
+                    class="uppercase tracking-wide text-lg text-red-500 font-semibold font-serif"
                   >
                     Plataforma de diplomados
                   </div>
@@ -39,8 +39,8 @@
                         <v-tooltip text="React.js" location="top">
                           <template v-slot:activator="{ props }">
                             <img
-                              src="./../assets/react.png"
-                              class="rounded-xl w-[40px]"
+                              src="./../assets/vue-js.png"
+                              class="rounded-xl w-[30px] h-[30px]"
                               v-bind="props"
                             />
                           </template>
@@ -48,10 +48,10 @@
                       </div>
                     </div>
                   </div>
-                  <p class="mt-2 text-slate-500">
-                    El objetivo es ofrecer un espacio dinámico y accesible
-                    para la formación y el desarrollo profesional en
-                    diversas áreas de conocimiento.
+                  <p class="mt-2 text-slate-500 font-serif">
+                    El objetivo es ofrecer un espacio dinámico y accesible para
+                    la formación y el desarrollo profesional en diversas áreas
+                    de conocimiento.
                   </p>
                 </div>
               </div>
@@ -66,7 +66,7 @@
               <div class="md:flex">
                 <div class="p-8">
                   <div
-                    class="uppercase tracking-wide text-lg text-indigo-500 font-semibold"
+                    class="uppercase tracking-wide text-lg text-red-500 font-semibold font-serif"
                   >
                     <!-- Plataforma de Evaluación Educativa -->
                     API de Web Scraping para Comparación de Precios
@@ -100,10 +100,12 @@
                       </div> -->
                     </div>
                   </div>
-                  <p class="mt-2 text-slate-500">
+                  <p class="mt-2 text-slate-500 font-serif">
                     <!-- Plataforma para la enseñanza y evaluación en línea, diseñada
                     específicamente para educadores y estudiantes. -->
-                    Esta API está diseñada para realizar web scraping en sitios de comercio electrónico y la finalidad es obtener el enlace y el precio más bajo de productos específicos.
+                    Esta API está diseñada para realizar web scraping en sitios
+                    de comercio electrónico y la finalidad es obtener el enlace
+                    y el precio más bajo de productos específicos.
                   </p>
                 </div>
               </div>
@@ -118,7 +120,7 @@
               <div class="md:flex">
                 <div class="p-8">
                   <div
-                    class="uppercase tracking-wide text-lg text-indigo-500 font-semibold"
+                    class="uppercase tracking-wide text-lg text-red-500 font-semibold font-serif"
                   >
                     Plataforma de Evaluación Educativa
                     <!-- API de Web Scraping para Comparación de Precios -->
@@ -144,7 +146,7 @@
                           <template v-slot:activator="{ props }">
                             <img
                               src="./../assets/vue-js.png"
-                              class="rounded-xl w-[40px]"
+                              class="rounded-xl w-[30px] h-[30px]"
                               v-bind="props"
                             />
                           </template>
@@ -152,7 +154,7 @@
                       </div>
                     </div>
                   </div>
-                  <p class="mt-2 text-slate-500">
+                  <p class="mt-2 text-slate-500 font-serif">
                     Plataforma para la enseñanza y evaluación en línea, diseñada
                     específicamente para educadores y estudiantes.
                     <!-- Esta API está diseñada para realizar web scraping en sitios de comercio electrónico y la finalidad es obtener el enlace y el precio más bajo de productos específicos. -->

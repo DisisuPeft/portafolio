@@ -61,22 +61,20 @@ onMounted(() => {
         <li>
           <div class="flex justify-center">
             <div class="grid grid-cols-5 gap-4 w-[300px]">
-              <div
-                class="flex justify-end"
-                v-for="row in images_src"
-                :key="row.id"
-              >
-                <v-tooltip :text="row.title" location="top">
+              <!--                 v-for="row in images_src"
+                :key="row.id" -->
+              <div class="flex justify-end">
+                <v-tooltip text="Laravel" location="top">
                   <template v-slot:activator="{ props }">
                     <img
-                      :src="row.src"
+                      src="./../assets/laravel.png"
                       class="rounded-xl w-[50px]"
                       v-bind="props"
                     />
                   </template>
                 </v-tooltip>
               </div>
-              <!-- <div class="flex justify-start">
+              <div class="flex justify-start">
                 <v-tooltip text="Vue.js" location="top">
                   <template v-slot:activator="{ props }">
                     <img
@@ -229,7 +227,7 @@ onMounted(() => {
                     />
                   </template>
                 </v-tooltip>
-              </div> -->
+              </div>
             </div>
           </div>
         </li>

@@ -81,16 +81,13 @@ onMounted(() => {
       class="py-16 px-6 md:px-12 lg:px-24 flex flex-col items-center text-center"
     >
       <h1 class="text-4xl md:text-5xl font-bold mb-2">
-        Daniel Eduardo Fernández Pérez
+        Hola, soy Daniel Eduardo Fernández Pérez.
       </h1>
       <h2
         class="text-2xl md:text-3xl font-semibold text-emerald-600 dark:text-emerald-400 mb-2"
       >
         Full Stack Developer
       </h2>
-      <p class="text-lg md:text-xl max-w-2xl mb-8">
-        Especializado en ERPs Educativos, CRMs y soluciones web funcionales
-      </p>
 
       <div class="flex flex-wrap justify-center gap-4">
         <a
@@ -128,6 +125,14 @@ onMounted(() => {
       </div>
     </header>
     <main class="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 pb-24">
+      <ul class="text-lg md:text-xl max-w-2xl mb-8 space-y-4 list-none">
+        <li>🧱 No me interesa programar por programar.</li>
+        <li>✍️ Desarrollo software útil, con visión y alma.</li>
+        <li>
+          🌍 Este sitio es una muestra de lo que construyo desde el sur, con
+          intención real.
+        </li>
+      </ul>
       <section id="about" class="mb-20">
         <h2
           class="text-3xl font-bold mb-8 border-b-2 border-emerald-500 dark:border-emerald-400 pb-2 inline-block"
@@ -135,11 +140,17 @@ onMounted(() => {
           Sobre mí
         </h2>
         <p class="text-lg leading-relaxed max-w-4xl">
-          Full Stack Developer con experiencia en el desarrollo de ERPs
-          educativos, CRMs y automatización de procesos. Especializado en
-          construir soluciones funcionales y escalables usando Django, React y
-          Vue. Apasionado por traducir necesidades reales en software intuitivo,
-          con enfoque en MVPs y colaboración remota.
+          No me interesa programar por programar. Desarrollar software, para mí,
+          es una forma de darle estructura a lo que importa: educación,
+          claridad, procesos útiles. Vengo de Tuxtla, donde aprendí que
+          construir algo valioso no es solo usar la última tecnología, sino
+          entender el problema real.
+        </p>
+        <p class="text-lg leading-relaxed max-w-4xl">
+          Por eso he dedicado mi tiempo a crear plataformas educativas, CRMs
+          funcionales y sistemas con visión a largo plazo. En este sitio
+          comparto lo que estoy desarrollando, lo que ya he construido y lo que
+          quiero seguir creando. Si resuena contigo, bienvenido.
         </p>
       </section>
 
@@ -278,6 +289,60 @@ onMounted(() => {
               </div>
             </div>
           </div>
+          <!-- Proyecto 5 -->
+          <div
+            class="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+          >
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">
+                Landing de la Universidad Nacional Salvador Zubirán Anchondo
+              </h3>
+              <p class="text-gray-600 dark:text-gray-800 mb-4">
+                Sitio para una universidad en crecimiento.
+              </p>
+              <div class="mb-4">
+                <h4 class="font-semibold mb-1">Stack:</h4>
+                <p class="text-gray-600 dark:text-gray-800">
+                  Next.js, Tailwind
+                </p>
+              </div>
+              <div class="flex gap-3">
+                <a
+                  href="https://www.unsza.com/"
+                  class="text-emerald-600 dark:text-blue-400 hover:underline flex items-center gap-1"
+                >
+                  <external-link-icon class="h-4 w-4" />
+                  <span>Visitar</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div
+            class="bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+          >
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">invitaPro</h3>
+              <p class="text-gray-600 dark:text-gray-800 mb-4">
+                Sitio para una empresa de invitaciones digitales.
+              </p>
+              <div class="mb-4">
+                <h4 class="font-semibold mb-1">Stack:</h4>
+                <p class="text-gray-600 dark:text-gray-800">
+                  Next.js, Tailwind
+                </p>
+              </div>
+              <div class="flex gap-3">
+                <a
+                  href="https://www.invitapro.lat/"
+                  class="text-emerald-600 dark:text-blue-400 hover:underline flex items-center gap-1"
+                >
+                  <external-link-icon class="h-4 w-4" />
+                  <span>Visitar</span>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section id="skills" class="mb-20">
@@ -361,7 +426,7 @@ onMounted(() => {
                 <check-circle-icon
                   class="h-4 w-4 text-emerald-600 dark:text-emerald-400"
                 />
-                Node.js (básico)
+                Node.js
               </li>
             </ul>
           </div>
